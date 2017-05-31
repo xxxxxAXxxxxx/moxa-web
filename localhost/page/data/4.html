@@ -1,0 +1,102 @@
+<html>
+    <head>
+	<title>MOXA</title>
+	<meta charset="utf-8"/>
+	<link rel="shortcut icon" href="/localhost/image/icon.png" type = "image/png">
+	<style>
+	    .radius1 {
+		background: #ffffff url(/localhost/image/block_hr.jpg) no-repeat; /* Цвет фона */
+		padding: 0px; /* Поля вокруг текста */
+	
+	    }
+	    .radius2 {
+		width: 150px; 
+		height:	500px;
+		float: left;	
+		background: #ffffff url(/localhost/image/block_vert.jpg); /* Цвет фона */
+		border: 0px soli	d black; /* Параметры рамки */
+		padding: 30px; /* Поля вокруг текста */
+		margin-bottom:10px; /* 	Отступ снизу */
+	    }
+	    .radius3 {
+		background: #ffffff url(/localhost/image/bottom.jpg); /* Цвет фона */
+	    }
+	    a { 	
+		text-decoration: none; /* Убираем подчеркивание у ссылок */
+	    }			
+	</style>
+    </head>			
+    <body background="/localhost/image/background.jpg" color="#ffffff">
+	<img src="/localhost/image/logo-moxa.png" align ="right" hspace="50" vspace="12" title="Компания MOXA специализируется на разработке и производстве телекоммуникационных решений промышленного стандарта и уже более 20 лет известна на рынке систем связи.	"> 	
+	<img src="/localhost/image/logo-ksa.png" align ="left" hspace="50" title="Научно-исследовательская лаборатория «Компьютерные системы автоматики» предлагает организациям и предприятиям, имеющим в структуре железнодорожный транспорт, комплексный подход к организации управления процессами перевозок.">
+	<h1 align="center">KSA Total Solution for Industrial Control</h1>
+	
+	<table cellpadding="0" cellspacing="0" width="100%">
+	    <tr>
+		<td colspan="2">
+		    <div style="border-radius: 20px 10px 10px 0;" class="radius1">
+			<table cellspacing="10">
+	    		    <tr>
+				<td rowspan="2" align="center" width="190"><b>About me:</b></td>
+				<td width="200"><font color="#CC0000">IP1: </font><font color='#FF8000'>123</font></td>
+				<td><font color="#CC0000">mac1: </font><font color='#FF8000'>23123</font></td>
+		    
+			    </tr>
+			    <tr>
+				<td><font color="#CC0000">IP2: </font><font color='#FF8000'>123123</font></td>
+				<td width="200"><font color="#CC0000">mac2: </font><font color='#FF8000'>123123</font></td>
+			    </tr>
+			</table>
+		    </div>
+		</td>
+	    </tr>
+	    <tr valign="top">
+		<td width="1%">
+		    <div style="border-radius: 0px 0px 10px 10px;" class="radius2">
+			<a href="/cgi-bin/read_index.cgi"><font color="#000000" size="5">MENU</font></a>
+			<ul>
+	    		    <li><p><a href="/cgi-bin/read_networking.cgi"><font size="4" color="#000000">Networking</font></a></p></li>
+	    		    <li><p><a href="/cgi-bin/read_serial.cgi"><font size="4" color="#000000">Serial</font></a></p></li>    
+	    		    <li><p><a href="/cgi-bin/read_firware.cgi"><font size="4" color="#000000">Firware</font></a></p></li>
+	    		    <li><p><a href="/cgi-bin/read_data.cgi"><font size="4" color="#000000"><b>Data</b></font></a></p></li>
+			</ul>	    
+
+		    </div>
+		</td>
+		<td width="99%">
+<!-- Отсюда пошла логика, которую необходимо переподвязать для корректного отправления данных в файл -->
+		    <FORM method= "GET" action="/cgi-bin/hello.cgi">
+			<table align="center">
+			    <tr>
+				<td height="20px"></td>
+			    </tr>
+			    <tr>
+				<td><font size="5"><b>Data</b></font></td>
+			    </tr>
+			</table>
+		    </FORM>
+		</td>
+	    </tr>
+	    <tr>
+		<td colspan="2" >
+		    <table width="100%" cellspacing="12"  cellpadding="10"style="border-radius: 10px 10px 10px 10px;" class="radius3">
+			<tr>
+			    <td align="center" width="25%">
+				    тел./факс: (343) 358-56-07,<br>
+				    ж.д. тел./факс: (970) 224-56-07,<br>
+				    E-mail : <a href="info@nilksa.ru"><font color="#ffffff">info@nilksa.ru</font></a>
+			    </td>
+			    <td width="55%" align="center">620034. Россия г. Екатеринбург, ул. Колмогорова, д.66, корп. Б</td>
+			    <td align="center">
+				    <a href="http://www.nilksa.ru"><font color="#ffffff">www.nilksa.ru</font></a><br>
+				    <p><a href="http://www.moxa.ru"><font color="#ffffff">www.moxa.ru</font></a></p>
+			    </td>
+			</tr>
+		    </table>
+		</td>	
+	
+	    </tr>
+	</table>
+	
+    </body>
+</html>
